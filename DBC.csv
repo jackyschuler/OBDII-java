@@ -1,0 +1,14 @@
+04;1;Calculated engine load;[0|100];%;(100/255)*a
+05;1;Engine coolant temperature;[-40|215];degC;a-40
+06;1;Short term fuel trim—Bank 1;[-100|99.21875];%;(100/128)*a-100
+07;1;Long term fuel trim—Bank 1;[-100|99.21875];%;(100/128)*a-100
+08;1;Short term fuel trim—Bank 2;[-100|99.21875];%;(100/128)*a-100
+09;1;Long term fuel trim—Bank 2;[-100|99.21875];%;(100/128)*a-100
+0A;1;Fuel pressure (gauge pressure);[0|765];kPa;3*a
+0B;1;Intake manifold absolute pressure;[0|255];kPa;a
+0C;2;Engine RPM;[0|16383.75];rpm;(256*a+b)/4
+0D;1;Vehicle speed;[0|255];km/h;a
+0E;1;Timing advance;[-64|63.5];deg before TDC;a/2-64
+0F;1;Intake air temperature;[-40|215];degC;a-40
+10;2;Mass air flow sensor (MAF) air flow rate;[0|655.35];grams/sec;(256*a+b)/100
+11;1;Throttle position;[0|100];%;(100/255)*a
