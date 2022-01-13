@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
+ * Class to handle the input/output from the csv files
+ *
  * Reads from a DBC file (currently a modified CSV file) using the following format
  * {@code 1569601200.069200;1;7E8;0;8;8;0;0;0;03410559FFFFFFFF}.
  */
@@ -32,7 +34,7 @@ public class FileIO {
      * Writes human-readable data to a CSV file
      * @param filePath The path of the CSV file
      * @param map The HashMap containing the data
-     * @throws IOException
+     * @throws IOException Throws an exception in the case of an I/O error
      */
     public static void writeFile(String filePath, Map<String, HumanReadableMessage> map) throws IOException {
         Path path = Path.of(filePath);

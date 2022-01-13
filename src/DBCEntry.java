@@ -1,3 +1,6 @@
+/**
+ * Object that stores and contains methods that parse data from the DBC file and the formula for calculating the value of the OBDII data.
+ */
 public class DBCEntry {
     private String pid;
     private int dataBytes;

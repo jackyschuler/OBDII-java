@@ -4,7 +4,7 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 import java.util.Map;
 
 /**
- *
+ * Object that stores and contains methods to convert the data to a human readable format
  */
 public class HumanReadableMessage {
     //private enum messageType{REQUEST, RESPONSE, ERROR};

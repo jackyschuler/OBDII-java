@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Parse data from raw CAN frame
+ * Object that stores and contains methods to parse data from an OBDII data frame
  */
 public class DataFrameEntry {
     //TODO: make a data class that this and PIDEntry inherit from???
